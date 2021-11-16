@@ -23,6 +23,199 @@ li {
   list-style-type: none;
 }
 
+/* DESKTOP ABOUT */
+.about_header {
+  padding: 100px;
+  background-color: #d3d3d362;
+  text-align: center;
+}
+
+.about_wrapper_list {
+  display: flex;
+  margin-left: 820px;
+}
+
+.about_michigan {
+  font-size: 12px;
+}
+
+.about_state {
+  font-size: 12px;
+}
+
+.about_title {
+  width: 40%;
+  margin-left: 330px;
+  margin-top: 50px;
+}
+
+.about_title_content {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+  color: #ec5242;
+  margin-bottom: 10px;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.welcome_to_michigan {
+  display: none;
+}
+
+.seperatorIV {
+  background-color: #ec5242;
+  height: 1px;
+  width: 30px;
+  margin-left: 550px;
+  margin-bottom: 30px;
+}
+
+.about_content {
+  width: 65%;
+  line-height: 25px;
+  margin-left: 200px;
+}
+
+.about_content_item {
+  font-size: 13px;
+  margin-bottom: 70px;
+  color: #272a31;
+  background-color: rgba(255, 255, 255, 0.616);
+}
+
+.contact_item {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #272a31;
+}
+
+.mail_to_list {
+  font-weight: 600;
+}
+
+.mail_to_content {
+  color: #272a31ad;
+  font-size: 13px;
+}
+
+.second_header_section {
+  padding: 50px;
+  text-align: center;
+}
+
+.second_header_section_title {
+  font-weight: 500;
+  color: #272a31;
+}
+
+.seperatorV {
+  background-color: #ec5242;
+  height: 1px;
+  width: 30px;
+  margin-left: 600px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.second_header_section_content {
+  color: #272a31;
+  line-height: 20px;
+  font-size: 13px;
+  width: 60%;
+  margin-left: 250px;
+}
+
+.dev_logo_container {
+  border: 1px solid #d3d3d3;
+  padding: 30px;
+  width: 30%;
+  margin-left: 450px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.seperatorVII {
+  background-color: #d3d3d3;
+  height: 1px;
+  width: 100%;
+}
+
+.third_section_header_title {
+  margin-top: 40px;
+}
+
+.third_section_title {
+  font-size: 16pt;
+  font-weight: 500;
+  color: #272a31;
+}
+
+.seperatorX {
+  background-color: #ec5242;
+  width: 30px;
+  margin-left: 600px;
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.senior_devs {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-left: 320px;
+}
+
+.senior_dev_list {
+  width: 100%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.senior_dev_listI {
+  background-image: url(./images/Historical_Devs.jpg);
+  opacity: 90%;
+  background-position: center;
+  background-size: cover;
+}
+
+.Dev_container {
+  background-color: #272a31;
+  opacity: 90%;
+  padding: 20px;
+}
+
+.Development_year {
+  color: #d3d3d3;
+}
+
+.Development_content {
+  color: #d3d3d3;
+  font-size: 13px;
+}
+
+.senior_dev_listII {
+  background-image: url(./images/second_Dev_history.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.third_section_title_content_item {
+  font-size: 13px;
+  margin-bottom: 40px;
+}
+
+.footerII {
+  display: flex;
+  padding: 60px;
+  background-color: #272a31;
+  color: #d3d3d3;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .social_mid {
   width: 15px;
   height: 18px;
@@ -73,7 +266,7 @@ li {
   position: fixed;
   width: 100%;
   align-items: center;
-  background-color: rgb(56, 56, 56);
+  background-color: #272a31;
   justify-content: right;
   height: 20px;
   font-family: sans-serif;
@@ -109,7 +302,7 @@ li {
 }
 
 .campaign_action {
-  border: 2px solid red;
+  border: 2px solid #ec5242;
   height: 40px;
   margin: 0;
   padding: 10px;
@@ -135,7 +328,7 @@ li {
 }
 
 .title {
-  color: orangered;
+  color: #ec5242;
   font-family: sans-serif;
   font-size: 20pt;
   font-weight: 500;
@@ -151,7 +344,7 @@ li {
   text-transform: uppercase;
   font-size: 51px;
   font-weight: 800;
-  color: red;
+  color: #ec5242;
   width: 500px;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -179,7 +372,7 @@ li {
 
 .header_atMichigan_item {
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.781);
+  color: #272a31;
   font-weight: 500;
   margin-bottom: 50px;
 }
@@ -243,7 +436,7 @@ li {
 }
 
 .card_item_title {
-  color: orangered;
+  color: #ec5242;
   margin-bottom: 11px;
   font-size: 17px;
 }
@@ -293,12 +486,12 @@ li {
 .speaker_name {
   font-size: 18px;
   font-weight: 700;
-  color: rgba(0, 0, 0, 0.795);
+  color: #272a31;
 }
 
 .speaker_job {
   font-family: "Open Sans", sans-serif;
-  color: rgb(248, 35, 35);
+  color: #ec5242;
   font-weight: 600;
   font-size: 12px;
   margin-top: 10px;
@@ -313,7 +506,7 @@ li {
 }
 
 .seperatorI {
-  background-color: red;
+  background-color: #ec5242;
   height: 1px;
   width: 30px;
   margin-left: 45px;
@@ -321,7 +514,7 @@ li {
 }
 
 .seperatorII {
-  background-color: red;
+  background-color: #ec5242;
   height: 1px;
   width: 30px;
   margin-left: 650px;
@@ -338,12 +531,12 @@ li {
   margin-top: 650px;
   text-align: center;
   padding: 40px;
-  background-color: rgba(0, 0, 0, 0.712);
+  background-color: #272a31;
 }
 
 .partner {
   margin-bottom: 10px;
-  color: rgba(255, 255, 255, 0.712);
+  color: #d3d3d3;
   font-weight: lighter;
   font-size: 15px;
 }
@@ -361,7 +554,7 @@ li {
 
 .partner_list_items {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.699);
+  color: #d3d3d3;
   font-size: 20pt;
   justify-content: center;
 }
@@ -392,7 +585,7 @@ li {
 }
 
 .seperatorIII {
-  background-color: orangered;
+  background-color: #ec5242;
   height: 1px;
   width: 30px;
   margin-left: 620px;
@@ -430,6 +623,112 @@ li {
 
   .mobile_nav {
     display: block;
+  }
+
+  /* MOBILE ABOUT */
+  .about_header {
+    margin: 0;
+    padding: 0;
+    height: 780px;
+    text-align: center;
+  }
+
+  .about_wrapper_list {
+    display: none;
+  }
+
+  .welcome_to_michigan {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .Hello {
+    font-weight: 500;
+    font-size: 20pt;
+    color: #ec5242;
+    margin-top: 100px;
+  }
+
+  .about_title {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about_title_content {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 20px;
+    text-align: center;
+    color: #ec5242;
+    width: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  .seperatorIV {
+    padding: 0;
+    margin-left: 220px;
+  }
+
+  .about_content {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+  }
+
+  .contact_item {
+    width: 70%;
+    margin-left: 70px;
+  }
+
+  .mail_to {
+    margin-bottom: 100px;
+  }
+
+  .second_header_section_title_container {
+    width: 280px;
+    margin-left: 50px;
+  }
+
+  .seperatorV {
+    margin-left: 170px;
+  }
+
+  .second_header_section_content {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .header_section_contentII {
+    display: none;
+  }
+
+  .dev_logo_container {
+    border: 1px solid #d3d3d3;
+    padding: 30px;
+    margin: 40px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .seperatorX {
+    background-color: #ec5242;
+    width: 30px;
+    margin-left: 170px;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .senior_devs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 300px;
+    padding: 0;
   }
 
   .second_header_container {
@@ -623,7 +922,7 @@ li {
   }
 
   .seperatorI {
-    background-color: red;
+    background-color: #ec5242;
     height: 1px;
     width: 30px;
     margin-left: 40px;
@@ -631,7 +930,7 @@ li {
   }
 
   .seperatorII {
-    background-color: red;
+    background-color: #ec5242;
     height: 1px;
     width: 30px;
     margin-left: 240px;
@@ -640,7 +939,7 @@ li {
   }
 
   .seperatorIII {
-    background-color: red;
+    background-color: #ec5242;
     height: 1px;
     width: 30px;
     margin-left: 190px;
@@ -709,7 +1008,7 @@ li {
   }
 
   .join_Us {
-    background-color: rgb(255, 10, 10);
+    background-color: #ec5242;
     border: none;
     height: 50px;
     width: 300px;
