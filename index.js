@@ -2,39 +2,39 @@ document.addEventListener('DOMContentLoaded', () => {
   const speakerObj = [
     {
       name: 'Bob Quinn',
-      img: '../images/Bob.jpg',
+      img: './images/Bob.jpg',
       job: 'Professor in Business Administration-Professor od Management & Organizations',
-      desc: 'Bob Quinn is a co-founder and the current director of the Center for Positive Organizational Scholarship.He has published 16 books on the subjects of leadership, organizational change, and effectiveness.',
+      desc: 'Bob Quinn is a co-founder and the current director of the Center for Positive Organizational Scholarship.He has published 16 books on the subjects of leadership.',
     },
     {
       name: 'Shirli Kopelman',
-      img: '../images/kopelmanshirli.jpg',
+      img: './images/kopelmanshirli.jpg',
       job: 'Clinical Assistant Professor of Management and Organizations',
-      desc: 'Shirli Kopelman conducts extensive research and provides coaching on the strategic ways individuals can leverage emotions, cross-cultural differences, and power to co-create value in challenging circumstances.such as high-stakes negotiations.',
+      desc: 'Shirli Kopelman conducts extensive research and provides coaching on the strategic ways individuals can leverage emotions, cross-cultural differences.',
     },
     {
       name: 'John Branch',
-      img: '../images/branchjohn.jpg',
-      job: 'Lecturer of Marketing and Strategy Faculty Associate, Center for Russian and East European Studies',
+      img: './images/branchjohn.jpg',
+      job: 'Lecturer of Marketing and Strategy Faculty Associate',
       desc: 'John Branch brings extensive global marketing experience to the classroom to help his students better understand customers in todays global business environment.',
     },
     {
       name: 'Wally Hopp',
-      img: '../images/hoppwallace.jpg',
-      job: 'Associate Dean, Faculty and Research Herrick Professor of Technology and Operations, Professor of indutrial and Operations Engineering',
+      img: './images/hoppwallace.jpg',
+      job: 'Associate Dean, Faculty and Research Herrick Professor of Technology and Operations',
       desc: 'Wally Hopp is a former editor-in-chief of the journal Management Science and is currently a senior editor of Production and Operations Management.',
     },
     {
       name: 'Venky Nagar',
-      img: '../images/nagarvenky.jpg',
+      img: './images/nagarvenky.jpg',
       job: 'Associate Professor of Accounting',
-      desc: 'Venky Nagar serves on the editorial boards of the journal of political Economy, The Accounding Review, and Journal of Management Accounting Research. He has contributed and garnered awards from many other publications.',
+      desc: 'Venky Nagar serves on the editorial boards of the journal of political Economy, The Accounding Review, and Journal of Management Accounting Research.',
     },
     {
       name: 'Aneel Karnani',
-      img: '../images/karnanianeel.jpg',
+      img: './images/karnanianeel.jpg',
       job: 'Associate Professor of Strategy',
-      desc: 'Aneel Karnani studies how firms can leverage existing competitive advantages and create new ones to achieve rapid growth. He is interested in global competition, particularly in the context of emerging economies.',
+      desc: 'Aneel Karnani studies how firms can leverage existing competitive advantages and create new ones to achieve rapid growth. He is interested in global competition.',
     },
   ];
   const containerSpeaker = document.createElement('div');
